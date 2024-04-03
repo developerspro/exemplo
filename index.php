@@ -8,6 +8,8 @@ function p($variavel){
 }
 
 $cl = new Cliente();
+$cl->dependente->setNome("Nome do dependente");
+
 $clv = new ClienteVip();
 
 $cl->setNome("Nome do cliente");
