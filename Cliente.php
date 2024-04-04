@@ -9,7 +9,7 @@ class Cliente extends Pessoa {
     {
         echo "Executando o construtor<br>";
         $this->dependente = new Pessoa();
-        $this->dependente->setNome($parm);
+        $this->dependente->setNome("teste");
     }
     
     public function somaPontos($pontos){
